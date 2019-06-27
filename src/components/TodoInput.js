@@ -9,12 +9,14 @@ export default class TodoInput extends Component {
                     <div className="input-group">
                         <div className="input-group-prepend">
                             <div className="input-group-text bg-primary text-white">
-                                <i class="fas fa-align-justify"></i>
+                                <i class="fa fa-align-justify"></i>
                             </div>
                         </div>
+                        <input type="text" className="form-control" placeholder="add ToDo items"/>
                     </div>
+                    <button type="submit" className="btn btn-block btn-primary mt-3"> Add Items</button>
                 </form>
-                <h1>hello from todo input</h1>
+                
                 <TodoItem />
             </div>
         )
